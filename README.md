@@ -4,7 +4,8 @@ Aplicación de microservicios que maneja frases y notificaciones
 Descripción del Proyecto
 
 Este proyecto consiste en una aplicación de microservicios que maneja frases y notificaciones. Está compuesto por dos servicios principales: el servicio de frases y el servicio de notificaciones. Utilizamos FastAPI para crear los endpoints y SQLite para la gestión de bases de datos.
-Estructura del Proyecto
+
+Estructura del Proyecto:
 
 ```
 /microservicios-demo/
@@ -24,6 +25,7 @@ Servicios
 Servicio de Frases
 Endpoint /frases/: Permite agregar nuevas frases a la base de datos.
 Endpoint /frase-del-dia/{id_usuario}: Asigna una frase del día a un usuario y envía una notificación al servicio de notificaciones.
+
 Servicio de Notificaciones
 Endpoint /notificar/: Recibe notificaciones del servicio de frases y las imprime en la consola.
 
