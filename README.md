@@ -6,7 +6,7 @@ Descripción del Proyecto
 Este proyecto consiste en una aplicación de microservicios que maneja frases y notificaciones. Está compuesto por dos servicios principales: el servicio de frases y el servicio de notificaciones. Utilizamos FastAPI para crear los endpoints y SQLite para la gestión de bases de datos.
 Estructura del Proyecto
 
-(((
+```
 /microservicios-demo/
 ├── frases/
 │   ├── main.py          # Servicio de frases
@@ -17,7 +17,7 @@ Estructura del Proyecto
 │   ├── main.py          # Servicio de usuarios
 │   ├── database.py      # Conexión y creación de la base de datos de usuarios
 └── requirements.txt     # Dependencias del proyecto
-)))
+```
 
 Servicios
 
